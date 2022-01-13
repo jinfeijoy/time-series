@@ -1,5 +1,5 @@
 # Time Series
-* [IBM Time Series Course](https://www.coursera.org/learn/time-series-survival-analysis/home/welcome): Jan10 - Jan20
+* [IBM Time Series Course](https://www.coursera.org/learn/time-series-survival-analysis/home/welcome): Jan13 - Jan20
 
 
 ## Reference
