@@ -13,5 +13,9 @@
     * The seasonal and residual magnitudes are independent of trend
   * Multiplicative decomposition: observation = trend * seasonality * residual ( Or log(obs) = log(trend) + log(seasonal) + log(residual))
     * The seasonal and residual magnitudes fluctuate with trend.
-    * d
+  * Pseudo-additive models combine elements of the additive and multiplicative models
+    * can be useful when:
+        * time series values are close to or equal to 0
+        * we expected features related to a multiplicative model
+        * division by 0 often become a problem when this is the case
 * Assumptions about seasonal patterns and trends
