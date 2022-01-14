@@ -19,4 +19,8 @@
         * we expected features related to a multiplicative model
         * division by 0 often become a problem when this is the case
         * ![image](https://user-images.githubusercontent.com/16402963/149574268-41aa3b45-5d0a-49db-b0fa-95afaeda49a4.png)
-* Assumptions about seasonal patterns and trends
+  
+* How to decompose time series:
+    * single, double, triple exponential smoothing
+    * locally estimated scatterplot smoothing (LOESS) (only for additive decomposition)
+    * Frequency-based methods: define seasonal component without specify any frequency
