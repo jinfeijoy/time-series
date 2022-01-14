@@ -1,6 +1,6 @@
 # Time Series
 * [IBM Time Series Course](https://www.coursera.org/learn/time-series-survival-analysis/home/welcome): Jan13 - Jan22
-
+* [Nodes](https://github.com/jinfeijoy/time-series/blob/main/time-series-node.md)
 
 ## Reference
 * https://towardsdatascience.com/3-facts-about-time-series-forecasting-that-surprise-experienced-machine-learning-practitioners-69c18ee89387
