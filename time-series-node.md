@@ -8,6 +8,7 @@
 * Generally, models perform better if we can first remove known sources of variation (like trend and seasonality)
 #### Time Series Decomposition
 * Approaches to decompose time-series data
+  * ![image](https://user-images.githubusercontent.com/16402963/149573845-92881970-7cf9-4a5e-9bc1-390e56077075.png) 
   * Additive decomposition: observation = trend + seasonality + residual
     * The seasonal and residual magnitudes are independent of trend
   * Multiplicative decomposition: observation = trend * seasonality * residual ( Or log(obs) = log(trend) + log(seasonal) + log(residual))
