@@ -18,9 +18,33 @@
         * time series values are close to or equal to 0
         * we expected features related to a multiplicative model
         * division by 0 often become a problem when this is the case
-        * ![image](https://user-images.githubusercontent.com/16402963/149574268-41aa3b45-5d0a-49db-b0fa-95afaeda49a4.png)
-  
+        * ![image](https://user-images.githubusercontent.com/16402963/149574268-41aa3b45-5d0a-49db-b0fa-95afaeda49a4.png) 
 * How to decompose time series:
     * single, double, triple exponential smoothing
     * locally estimated scatterplot smoothing (LOESS) (only for additive decomposition)
     * Frequency-based methods: define seasonal component without specify any frequency
+
+### Stationarity and Time Series Smoothing
+#### Stationarity and Autocorrelation
+* Stationary Time Series Assumption:
+  * Constant Mean
+  * Constant Variance
+  * Constant Autocorrelation (autocorrelation means today's measurement is highly correlated to past value) 
+  * No periodic component (such as seasonality)
+* Common approach:
+  * Identify sources of non-stationarity
+  * Transform series to make it stationary
+  * Build models with stationary series
+* The Augmented Dickey-Fuller (ADF) test specifically tests for stationarity.
+  * It is a hypothesis test: the test returns a p-value,  and we generally say the series is non-stationary if the p-value is less than 0.05.
+  * It is a less appropriate test to use with small datasets,  or data with heteroscedasticity (different variance across observations) present.
+  * It is best to pair ADF with other techniques such as:  run-sequence plots, summary statistics, or histograms.
+* Common Transformations for Time Series include:
+  * Remove trend (constant mean)
+  * Remove heteroscedasticity with log (constant variance)
+  * Remove autocorrelation with differencing (exploit constant structure)
+  * Remove seasonality (no periodic component)
+  * Multiple transformations are often required.
+
+
+
