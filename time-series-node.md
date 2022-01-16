@@ -45,6 +45,22 @@
   * Remove autocorrelation with differencing (exploit constant structure)
   * Remove seasonality (no periodic component)
   * Multiple transformations are often required.
+#### Time Series Smoothing
+* Smoothing is a process that often improves our ability to forecast series by reducing the impact of noise.
+* Smoothing approaches: 
+  * Simple average smoothing
+  * Moving Average: avoid sensitivity to local fluctuations
+    * **Equally weighted moving average**: this technique clearly lags the trend moving forward, and we see that this actually becomes a bigger and bigger problem as that trend becomes more aggressive
+    * **Exponentially weighted moving average**: exponential is more sensitive to local changes. We put more weight to those more recent values, however, exponential still lag significantly
+      * ![image](https://user-images.githubusercontent.com/16402963/149667041-111b1419-c6a8-447f-9d9c-52022e740ae8.png)
+  * Exponential Smoothing
+    * Single Exponential Smoothing: lack a trend
+      * ![image](https://user-images.githubusercontent.com/16402963/149667197-7917a9f1-dee3-4e1c-9229-93bbdea16d78.png)
+    * Double Exponential Smoothing: have trend but no seasonality
+      * ![image](https://user-images.githubusercontent.com/16402963/149667228-1cf437a7-0f03-4797-8258-8253b852a41d.png)
+    * Triple Exponential Smoothing: have trend and seasonality
+      * ![image](https://user-images.githubusercontent.com/16402963/149667296-75de17bf-a1b4-4408-9767-2c7b54001c1b.png)
+ 
 
 
 
