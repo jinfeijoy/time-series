@@ -60,7 +60,18 @@
       * ![image](https://user-images.githubusercontent.com/16402963/149667228-1cf437a7-0f03-4797-8258-8253b852a41d.png)
     * Triple Exponential Smoothing: have trend and seasonality
       * ![image](https://user-images.githubusercontent.com/16402963/149667296-75de17bf-a1b4-4408-9767-2c7b54001c1b.png)
- 
+
+### ARMA & ARIMA
+#### ARMA
+* ARMA models combine two models:
+  * The first is an autoregressive (AR) model. Autoregressive models anticipate series’ dependence on its own past values.
+  * The second is a moving average (MA) model. Moving average models anticipate series’ dependence on past forecast errors.
+  * The combination (ARMA) is also known as the Box - Jenkins approach.
+  * ARMA models are often expressed using orders p and q for the AR and MA components. 
+  * ![image](https://user-images.githubusercontent.com/16402963/149844411-853e9c74-d061-49c0-a23d-3f67e112e134.png)
+  * ![image](https://user-images.githubusercontent.com/16402963/149844422-833e620f-a3a4-48f5-914f-097d0466406a.png)
+  * ![image](https://user-images.githubusercontent.com/16402963/149844443-569c1281-9ec5-433a-aac5-00192bd83ef7.png)
+
 
 
 
