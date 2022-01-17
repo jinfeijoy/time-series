@@ -71,6 +71,34 @@
   * ![image](https://user-images.githubusercontent.com/16402963/149844411-853e9c74-d061-49c0-a23d-3f67e112e134.png)
   * ![image](https://user-images.githubusercontent.com/16402963/149844422-833e620f-a3a4-48f5-914f-097d0466406a.png)
   * ![image](https://user-images.githubusercontent.com/16402963/149844443-569c1281-9ec5-433a-aac5-00192bd83ef7.png)
+* ARMA Models Considerations
+  * These are important considerations to keep in mind when dealing with ARMA models:
+    * The time series is assumed to be stationary.
+    * A good rule of thumb is to have at least 100 observations when fitting an ARMA model.
+  * There are three stages in building an ARMA model:
+    * Identification
+      * Validate that the time series is stationary.
+      * Confirm whether the time series contains a seasonal component.
+        * Autocorrelation Plot: is commonly used to detect dependence on prior observations. It summarizes total (2-way) correlation between the variable and its past values.
+          * ![image](https://user-images.githubusercontent.com/16402963/149845368-6e5cc976-893b-4469-8f24-62b551694e02.png) 
+        * partial autocorrelation plots: summarizes dependence on past observations. However, it measures partial results (including all lags)
+          * ![image](https://user-images.githubusercontent.com/16402963/149845387-4219b6f9-dcc2-40af-bb50-47c44ab50633.png) 
+        * seasonal subseries plots: one approach for measuring seasonality. This chart shows the average level for each seasonal period and illustrates how individual observations relate to this level.
+          * ![image](https://user-images.githubusercontent.com/16402963/149845402-dc561ae2-5d5b-4a9f-a933-2c2e9d8d2f9a.png) 
+        * intuition (possible in some cases, i.e. seasonal sales of consumer products, holidays, etc.)
+    * Estimation
+        * Once we have a stationary series, we can estimate AR and MA models. We need to determine p and q, the order of the AR and MA models. 
+          * One approach here is to look at autocorrelation and partial autocorrelation plots. 
+            * Plot confidence intervals on the Partial Autocorrelation Plot. 
+            * Choose lag p such that partial autocorrelation becomes insignificant for p + 1 and beyond
+            * Plot confidence intervals on the Autocorrelation Plot
+            * Choose lag q such that autocorrelation becomes insignificant for q + 1 and beyond.
+          * Another approach is to treat p and q as hyperparameters and apply standard approaches (grid search, cross validation, etc.)
+    * Evaluation
+      * You can assess your ARMA model by making sure that the residuals will approximate a Gaussian distribution (aka white noise). Otherwise, you need to iterate to obtain a better model.
+* Guidelines to choose between an AR and a MA model based on the shape of the autocorrelation and partial autocorrelation plots.
+  * ![image](https://user-images.githubusercontent.com/16402963/149845990-5f2d2a22-00d2-4951-9197-41cab3564a20.png)
+
 
 
 
