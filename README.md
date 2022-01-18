@@ -3,6 +3,7 @@
 * [Nodes](https://github.com/jinfeijoy/time-series/blob/main/time-series-node.md)
 
 ## Reference
+* https://neptune.ai/blog/select-model-for-time-series-prediction-task
 * https://towardsdatascience.com/3-facts-about-time-series-forecasting-that-surprise-experienced-machine-learning-practitioners-69c18ee89387
 * https://towardsdatascience.com/how-not-to-use-machine-learning-for-time-series-forecasting-avoiding-the-pitfalls-19f9d7adf424
 * https://towardsdatascience.com/an-end-to-end-project-on-time-series-analysis-and-forecasting-with-python-4835e6bf050b
