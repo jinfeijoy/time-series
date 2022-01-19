@@ -6,6 +6,14 @@
 * Task1 (Univariate): Jan23 - Jan24
 * Task2 (Multivariate): Jan25 - Jan31
 
+## Kaggle Reference
+* [Store Sales - Time Series Forecasting](https://www.kaggle.com/c/store-sales-time-series-forecasting/code?competitionId=29781&sortBy=voteCount)
+* [Time series Basics : Exploring traditional TS](https://www.kaggle.com/jagangupta/time-series-basics-exploring-traditional-ts)
+* [Everything you can do with a time series](https://www.kaggle.com/thebrownviking20/everything-you-can-do-with-a-time-series)
+* [Deep Learning for Time Series Forecasting](https://www.kaggle.com/dimitreoliveira/deep-learning-for-time-series-forecasting)
+* [Time Series Prediction Tutorial with EDA](https://www.kaggle.com/kanncaa1/time-series-prediction-tutorial-with-eda)
+* [Topic 9. Part 1. Time series analysis in Python](https://www.kaggle.com/kashnitsky/topic-9-part-1-time-series-analysis-in-python)
+
 ## Reference
 * https://towardsdatascience.com/3-facts-about-time-series-forecasting-that-surprise-experienced-machine-learning-practitioners-69c18ee89387
 * https://towardsdatascience.com/how-not-to-use-machine-learning-for-time-series-forecasting-avoiding-the-pitfalls-19f9d7adf424
