@@ -1,9 +1,12 @@
 # Time Series
-* [IBM Time Series Course](https://www.coursera.org/learn/time-series-survival-analysis/home/welcome): Jan13 - Jan22
-* [Nodes](https://github.com/jinfeijoy/time-series/blob/main/time-series-node.md)
+* [IBM Time Series Course](https://www.coursera.org/learn/time-series-survival-analysis/home/welcome): Jan13 - Jan19
+* [Sequences, Time Series and Prediction](https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction/home/welcome): Jan20 - Jan22
+* [Notes](https://github.com/jinfeijoy/time-series/blob/main/time-series-node.md)
+* [Select Model for Time Series Prediction Task](https://neptune.ai/blog/select-model-for-time-series-prediction-task)
+* Task1 (Univariate): Jan23 - Jan24
+* Task2 (Multivariate): Jan25 - Jan31
 
 ## Reference
-* https://neptune.ai/blog/select-model-for-time-series-prediction-task
 * https://towardsdatascience.com/3-facts-about-time-series-forecasting-that-surprise-experienced-machine-learning-practitioners-69c18ee89387
 * https://towardsdatascience.com/how-not-to-use-machine-learning-for-time-series-forecasting-avoiding-the-pitfalls-19f9d7adf424
 * https://towardsdatascience.com/an-end-to-end-project-on-time-series-analysis-and-forecasting-with-python-4835e6bf050b
@@ -17,4 +20,3 @@
 * https://towardsdatascience.com/stationarity-in-time-series-analysis-90c94f27322
 * https://towardsdatascience.com/the-time-series-transformer-2a521a0efad3
 * https://towardsdatascience.com/trend-seasonality-moving-average-auto-regressive-model-my-journey-to-time-series-data-with-edc4c0c8284b
-* 
