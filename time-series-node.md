@@ -99,6 +99,23 @@
 * Guidelines to choose between an AR and a MA model based on the shape of the autocorrelation and partial autocorrelation plots.
   * ![image](https://user-images.githubusercontent.com/16402963/149845990-5f2d2a22-00d2-4951-9197-41cab3564a20.png)
 
+#### ARIMA Models 
+* ARIMA models (Auto-Regressive Integrated Moving Average) have three components:
+  * AR Model
+  * Integrated Component
+  * MA Model
+* SARIMA Models (SARIMA is short for Seasonal ARIMA, an extension of ARIMA models to address seasonality)
+  * This model is used to remove seasonal components.
+    * The SARIMA model is denoted SARIMA (p, d, q) (P, D, Q).
+    * P, D, Q represent the same as p, d, q but they are applied across a season.
+    * M = one season
+* ARIMA and SARIMA Estimation  
+  * These are the steps to estimate p, d, q and P, D, Q?
+    * Visually inspect a run sequence plot for trend and seasonality.
+    * Generate an ACF Plot.
+    * Generate a PACF Plot.
+    * Treat as hyperparameters (cross validate).
+    * Examine information criteria (AIC, BIC) which penalize the number of parameters the model uses.
 
 
 
