@@ -120,5 +120,13 @@
 
 #### Others
 *  If it's stationary, meaning its behavior does not change over time, then great. The more data you have the better. But if it's not stationary then the optimal time window that you should use for training will vary (ie trend after financial crisis).
-
-
+* training/validation/testing split: 
+  * Fixed Patitioning
+    * ![image](https://user-images.githubusercontent.com/16402963/150458563-e1640fb6-db68-49c9-81fb-2956e5565f8c.png)
+    * Often, once you've done that, you can retrain using both the training and validation data. And then test on the test period to see if your model will perform just as well. And if it does, then you could take the unusual step of retraining again, using also the test data.  
+  * Roll-forward Partitioning
+    * ![image](https://user-images.githubusercontent.com/16402963/150458877-f4fcae7f-8acb-43ad-930f-6fbf967072d2.png)
+    * We start with a short training period, and we gradually increase it, say by one day at a time, or by one week at a time. At each iteration, we train the model on a training period. And we use it to forecast the following day, or the following week, in the validation period.
+* Evaluation Metrics:
+  * ![image](https://user-images.githubusercontent.com/16402963/150458993-47d84809-e40c-42d7-95ae-735e3c7ef1b9.png)
+ 
