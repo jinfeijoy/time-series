@@ -117,6 +117,9 @@
     * Treat as hyperparameters (cross validate).
     * Examine information criteria (AIC, BIC) which penalize the number of parameters the model uses.
 
+#### Deep Learning Time Series
+* Feeding windowed dataset into neural network
+* The code to generat windowed dataset can be found [here](https://github.com/jinfeijoy/tensorflow-1-public/blob/main/C4/W2/ungraded_labs/C4_W2_Lab_2_single_layer_NN.ipynb)
 
 #### Others
 *  If it's stationary, meaning its behavior does not change over time, then great. The more data you have the better. But if it's not stationary then the optimal time window that you should use for training will vary (ie trend after financial crisis).
