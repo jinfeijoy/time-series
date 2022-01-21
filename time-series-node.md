@@ -118,5 +118,7 @@
     * Examine information criteria (AIC, BIC) which penalize the number of parameters the model uses.
 
 
+#### Others
+*  If it's stationary, meaning its behavior does not change over time, then great. The more data you have the better. But if it's not stationary then the optimal time window that you should use for training will vary (ie trend after financial crisis).
 
 
