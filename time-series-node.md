@@ -98,6 +98,10 @@
       * You can assess your ARMA model by making sure that the residuals will approximate a Gaussian distribution (aka white noise). Otherwise, you need to iterate to obtain a better model.
 * Guidelines to choose between an AR and a MA model based on the shape of the autocorrelation and partial autocorrelation plots.
   * ![image](https://user-images.githubusercontent.com/16402963/149845990-5f2d2a22-00d2-4951-9197-41cab3564a20.png)
+* How to determine p&q
+  * [Time Series From Scratch — Autocorrelation and Partial Autocorrelation Explained](https://towardsdatascience.com/time-series-from-scratch-autocorrelation-and-partial-autocorrelation-explained-1dd641e3076f)
+  * [How to Interpret ACF and PACF plots for Identifying AR, MA, ARMA, or ARIMA Models](https://medium.com/@ooemma83/how-to-interpret-acf-and-pacf-plots-for-identifying-ar-ma-arma-or-arima-models-498717e815b6)
+  * [What’s The Difference Between Autocorrelation & Partial Autocorrelation For Time Series Analysis?](https://mxplus3.medium.com/interpreting-autocorrelation-partial-autocorrelation-plots-for-time-series-analysis-23f87b102c64)
 
 #### ARIMA Models 
 * ARIMA models (Auto-Regressive Integrated Moving Average) have three components:
@@ -117,6 +121,9 @@
     * Treat as hyperparameters (cross validate).
     * Examine information criteria (AIC, BIC) which penalize the number of parameters the model uses.
 
+#### Deep Learning Time Series
+* Feeding windowed dataset into neural network
+* The code to generat windowed dataset can be found [here](https://github.com/jinfeijoy/tensorflow-1-public/blob/main/C4/W2/ungraded_labs/C4_W2_Lab_2_single_layer_NN.ipynb)
 
 #### Others
 *  If it's stationary, meaning its behavior does not change over time, then great. The more data you have the better. But if it's not stationary then the optimal time window that you should use for training will vary (ie trend after financial crisis).
