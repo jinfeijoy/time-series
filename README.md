@@ -5,7 +5,7 @@
 * [Notes](https://github.com/jinfeijoy/time-series/blob/main/time-series-node.md)
 * [Select Model for Time Series Prediction Task](https://neptune.ai/blog/select-model-for-time-series-prediction-task)
 * Task1 ([Univariate](https://www.kaggle.com/robervalt/sunspots)): Jan23 - Jan25 (Traditional Timeseries/DL)
-* Task2 ([Multivariate](https://www.kaggle.com/c/competitive-data-science-predict-future-sales)): Jan25 - Jan31
+* Task2 ([Multivariate](https://www.kaggle.com/c/competitive-data-science-predict-future-sales)): Jan26 - Jan31
 
 ## Kaggle Reference
 * [Store Sales - Time Series Forecasting](https://www.kaggle.com/c/store-sales-time-series-forecasting/code?competitionId=29781&sortBy=voteCount)
