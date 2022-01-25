@@ -98,6 +98,7 @@
       * You can assess your ARMA model by making sure that the residuals will approximate a Gaussian distribution (aka white noise). Otherwise, you need to iterate to obtain a better model.
 * Guidelines to choose between an AR and a MA model based on the shape of the autocorrelation and partial autocorrelation plots.
   * ![image](https://user-images.githubusercontent.com/16402963/149845990-5f2d2a22-00d2-4951-9197-41cab3564a20.png)
+* How to determine p&q???
 
 #### ARIMA Models 
 * ARIMA models (Auto-Regressive Integrated Moving Average) have three components:
