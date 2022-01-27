@@ -16,6 +16,7 @@
 * [Topic 9. Part 1. Time series analysis in Python](https://www.kaggle.com/kashnitsky/topic-9-part-1-time-series-analysis-in-python)
 
 ## Reference
+* https://medium.com/analytics-vidhya/a-multivariate-time-series-guide-to-forecasting-and-modeling-with-python-codes-8733b5fd1a56
 * https://towardsdatascience.com/3-facts-about-time-series-forecasting-that-surprise-experienced-machine-learning-practitioners-69c18ee89387
 * https://towardsdatascience.com/how-not-to-use-machine-learning-for-time-series-forecasting-avoiding-the-pitfalls-19f9d7adf424
 * https://towardsdatascience.com/an-end-to-end-project-on-time-series-analysis-and-forecasting-with-python-4835e6bf050b
