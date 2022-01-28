@@ -5,7 +5,7 @@
 * [Notes](https://github.com/jinfeijoy/time-series/blob/main/time-series-node.md)
 * [MIT Time Series Course](https://ocw.mit.edu/courses/economics/14-384-time-series-analysis-fall-2013/lecture-notes/): Jan27 - Jan31
     * Multivariate Time Series
-      * [VAR](https://www.youtube.com/watch?v=TpQtD7ONfxQ) 
+      * [VAR](https://www.youtube.com/watch?v=TpQtD7ONfxQ): [Code in Python](https://www.analyticsvidhya.com/blog/2021/08/vector-autoregressive-model-in-python/)
 * [Select Model for Time Series Prediction Task](https://neptune.ai/blog/select-model-for-time-series-prediction-task)
 * Task1 ([Univariate](https://www.kaggle.com/robervalt/sunspots)): Jan23 - Jan25 (Traditional Timeseries/DL)
 * Task2 ([Multivariate](https://www.kaggle.com/c/competitive-data-science-predict-future-sales)): Feb1 - Feb6
