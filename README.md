@@ -6,6 +6,9 @@
 * [MIT Time Series Course](https://ocw.mit.edu/courses/economics/14-384-time-series-analysis-fall-2013/lecture-notes/): Jan27 - Jan31
     * Multivariate Time Series
       * [VAR](https://www.youtube.com/watch?v=TpQtD7ONfxQ): [VAR&VECM](https://towardsdatascience.com/vector-autoregressions-vector-error-correction-multivariate-model-a69daf6ab618),[VAR&Multivariate](https://towardsdatascience.com/prediction-task-with-multivariate-timeseries-and-var-model-47003f629f9),[Granger Causality](https://towardsdatascience.com/granger-causality-and-vector-auto-regressive-model-for-time-series-forecasting-3226a64889a6)
+      * Structure VAR
+      * Vector Model
+      * DL
 * [Select Model for Time Series Prediction Task](https://neptune.ai/blog/select-model-for-time-series-prediction-task)
 * Task1 ([Univariate](https://www.kaggle.com/robervalt/sunspots)): Jan23 - Jan25 (Traditional Timeseries/DL)
 * Task2 ([Multivariate](https://www.kaggle.com/c/competitive-data-science-predict-future-sales)): Feb1 - Feb6
