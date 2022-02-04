@@ -6,7 +6,7 @@
 * [MIT Time Series Course](https://ocw.mit.edu/courses/economics/14-384-time-series-analysis-fall-2013/lecture-notes/): Jan27 - Jan31
     * Multivariate Time Series
       * [VAR](https://www.youtube.com/watch?v=TpQtD7ONfxQ): [VAR&VECM](https://towardsdatascience.com/vector-autoregressions-vector-error-correction-multivariate-model-a69daf6ab618),[VAR&Multivariate](https://towardsdatascience.com/prediction-task-with-multivariate-timeseries-and-var-model-47003f629f9),[Granger Causality](https://towardsdatascience.com/granger-causality-and-vector-auto-regressive-model-for-time-series-forecasting-3226a64889a6)
-      * Structure VAR:[1](https://levelup.gitconnected.com/structural-vector-autoregression-in-r-5d6dbfc56499),[2](https://www.sas.upenn.edu/~jesusfv/svars_format.pdf),[3](https://kevinkotze.github.io/ts-8-tut/) The Structural Vector Autoregression is a very flexible tool especially for the analysis of policy actions on the real economy.
+      * Structure VAR:[1](https://levelup.gitconnected.com/structural-vector-autoregression-in-r-5d6dbfc56499),[2](https://www.sas.upenn.edu/~jesusfv/svars_format.pdf),[3](https://kevinkotze.github.io/ts-8-tut/) The Structural Vector Autoregression is a very flexible tool especially for the analysis of policy actions on the real economy. It can be used to estimate causal relations, perform policy analysis, test economic theories.
       * Vector Model
       * DL
 * [Select Model for Time Series Prediction Task](https://neptune.ai/blog/select-model-for-time-series-prediction-task)
