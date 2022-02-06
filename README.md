@@ -11,7 +11,8 @@
       * DL: [The Best Deep Learning Models for Time Series Forecasting](https://towardsdatascience.com/the-best-deep-learning-models-for-time-series-forecasting-690767bc63f0)
 * [Select Model for Time Series Prediction Task](https://neptune.ai/blog/select-model-for-time-series-prediction-task)
 * Task1 ([Univariate](https://www.kaggle.com/robervalt/sunspots)): Jan23 - Jan25 (Traditional Timeseries/DL)
-* Task2 ([Multivariate](https://www.kaggle.com/sagivmal/var-prediction-on-coronavirus-italy/notebook)): Feb5 - Feb9
+* Task2 ([Multivariate--VAR](https://www.kaggle.com/sagivmal/var-prediction-on-coronavirus-italy/notebook)): Feb5 - Feb7
+* Task3 (DL): Feb8 - Feb9
 
 ## Kaggle Reference
 * [Store Sales - Time Series Forecasting](https://www.kaggle.com/c/store-sales-time-series-forecasting/code?competitionId=29781&sortBy=voteCount)
