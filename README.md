@@ -3,9 +3,16 @@
 * [Sequences, Time Series and Prediction](https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction/home/welcome): Jan20 - Jan22
    * [Code Git](https://github.com/jinfeijoy/tensorflow-1-public) 
 * [Notes](https://github.com/jinfeijoy/time-series/blob/main/time-series-node.md)
+* [MIT Time Series Course](https://ocw.mit.edu/courses/economics/14-384-time-series-analysis-fall-2013/lecture-notes/): Jan27 - Jan31
+    * Multivariate Time Series
+      * [VAR](https://www.youtube.com/watch?v=TpQtD7ONfxQ): [VAR&VECM](https://towardsdatascience.com/vector-autoregressions-vector-error-correction-multivariate-model-a69daf6ab618),[VAR&Multivariate](https://towardsdatascience.com/prediction-task-with-multivariate-timeseries-and-var-model-47003f629f9),[Granger Causality](https://towardsdatascience.com/granger-causality-and-vector-auto-regressive-model-for-time-series-forecasting-3226a64889a6)
+      * Structure VAR:[1](https://levelup.gitconnected.com/structural-vector-autoregression-in-r-5d6dbfc56499),[2](https://www.sas.upenn.edu/~jesusfv/svars_format.pdf),[3](https://kevinkotze.github.io/ts-8-tut/) The Structural Vector Autoregression is a very flexible tool especially for the analysis of policy actions on the real economy. It can be used to estimate causal relations, perform policy analysis, test economic theories.
+      * Vector Model (Factor-augmented VARs) FAVAR: Another model for macro economic analysis, add addtional component to SVAR
+      * DL: [The Best Deep Learning Models for Time Series Forecasting](https://towardsdatascience.com/the-best-deep-learning-models-for-time-series-forecasting-690767bc63f0)
 * [Select Model for Time Series Prediction Task](https://neptune.ai/blog/select-model-for-time-series-prediction-task)
 * Task1 ([Univariate](https://www.kaggle.com/robervalt/sunspots)): Jan23 - Jan25 (Traditional Timeseries/DL)
-* Task2 ([Multivariate](https://www.kaggle.com/c/competitive-data-science-predict-future-sales)): Jan26 - Jan31
+* Task2 ([Multivariate--VAR](https://www.kaggle.com/sagivmal/var-prediction-on-coronavirus-italy/notebook)): Feb5 - Feb7
+* Task3 (DL): Feb8 - Feb9
 
 ## Kaggle Reference
 * [Store Sales - Time Series Forecasting](https://www.kaggle.com/c/store-sales-time-series-forecasting/code?competitionId=29781&sortBy=voteCount)
@@ -16,6 +23,7 @@
 * [Topic 9. Part 1. Time series analysis in Python](https://www.kaggle.com/kashnitsky/topic-9-part-1-time-series-analysis-in-python)
 
 ## Reference
+* https://medium.com/analytics-vidhya/a-multivariate-time-series-guide-to-forecasting-and-modeling-with-python-codes-8733b5fd1a56
 * https://towardsdatascience.com/3-facts-about-time-series-forecasting-that-surprise-experienced-machine-learning-practitioners-69c18ee89387
 * https://towardsdatascience.com/how-not-to-use-machine-learning-for-time-series-forecasting-avoiding-the-pitfalls-19f9d7adf424
 * https://towardsdatascience.com/an-end-to-end-project-on-time-series-analysis-and-forecasting-with-python-4835e6bf050b
