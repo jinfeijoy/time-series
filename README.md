@@ -16,7 +16,7 @@
 * [Select Model for Time Series Prediction Task](https://neptune.ai/blog/select-model-for-time-series-prediction-task)
 * Task1 ([Univariate](https://www.kaggle.com/robervalt/sunspots)): Jan23 - Jan25 (Traditional Timeseries/DL)
 * Task2 ([Multivariate--VAR](https://www.kaggle.com/sagivmal/var-prediction-on-coronavirus-italy/notebook)): Feb5 - Feb7
-* Task3 (DL): Feb8 - Feb9
+* Task3 ([DL](https://www.kaggle.com/c/competitive-data-science-predict-future-sales/code?competitionId=8587&sortBy=voteCount)): Feb8 - Feb9
     * [Forecasting with DeepAR: for busy people](https://kekayan.medium.com/forecasting-with-deepar-for-busy-people-ed67f9d9a00d) 
     * [Combining DeepAR and LightGBM to forecast sales for multiple products at once](https://pvilar.medium.com/combining-deepar-and-lightgbm-to-forecast-sales-for-multiple-products-at-once-5586148ceee9)
 
