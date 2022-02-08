@@ -9,10 +9,16 @@
       * Structure VAR:[1](https://levelup.gitconnected.com/structural-vector-autoregression-in-r-5d6dbfc56499),[2](https://www.sas.upenn.edu/~jesusfv/svars_format.pdf),[3](https://kevinkotze.github.io/ts-8-tut/) The Structural Vector Autoregression is a very flexible tool especially for the analysis of policy actions on the real economy. It can be used to estimate causal relations, perform policy analysis, test economic theories.
       * Vector Model (Factor-augmented VARs) FAVAR: Another model for macro economic analysis, add addtional component to SVAR
       * DL: [The Best Deep Learning Models for Time Series Forecasting](https://towardsdatascience.com/the-best-deep-learning-models-for-time-series-forecasting-690767bc63f0)
+        * N-BEATS (ElementAI)
+        * DeepAR (Amazon)
+        * Spacetimeformer
+        * Temporal Fusion Transformer or TFT (Google)
 * [Select Model for Time Series Prediction Task](https://neptune.ai/blog/select-model-for-time-series-prediction-task)
 * Task1 ([Univariate](https://www.kaggle.com/robervalt/sunspots)): Jan23 - Jan25 (Traditional Timeseries/DL)
 * Task2 ([Multivariate--VAR](https://www.kaggle.com/sagivmal/var-prediction-on-coronavirus-italy/notebook)): Feb5 - Feb7
 * Task3 (DL): Feb8 - Feb9
+    * [Forecasting with DeepAR: for busy people](https://kekayan.medium.com/forecasting-with-deepar-for-busy-people-ed67f9d9a00d) 
+    * [Combining DeepAR and LightGBM to forecast sales for multiple products at once](https://pvilar.medium.com/combining-deepar-and-lightgbm-to-forecast-sales-for-multiple-products-at-once-5586148ceee9)
 
 ## Kaggle Reference
 * [Store Sales - Time Series Forecasting](https://www.kaggle.com/c/store-sales-time-series-forecasting/code?competitionId=29781&sortBy=voteCount)
