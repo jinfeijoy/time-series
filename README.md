@@ -15,6 +15,7 @@
         * Temporal Fusion Transformer or TFT (Google)
 * [Select Model for Time Series Prediction Task](https://neptune.ai/blog/select-model-for-time-series-prediction-task)
 * Task1 ([Univariate](https://www.kaggle.com/robervalt/sunspots)): Jan23 - Jan25 (Traditional Timeseries/DL)
+    * [DeepAR](https://www.kaggle.com/shreyasajal/pytorch-forecasting-for-time-series-forecasting) 
 * Task2 ([Multivariate--VAR](https://www.kaggle.com/sagivmal/var-prediction-on-coronavirus-italy/notebook)): Feb5 - Feb7
 * Task3 ([DL](https://www.kaggle.com/c/competitive-data-science-predict-future-sales/code?competitionId=8587&sortBy=voteCount)): Feb8 - Feb9
     * [Forecasting with DeepAR: for busy people](https://kekayan.medium.com/forecasting-with-deepar-for-busy-people-ed67f9d9a00d) 
