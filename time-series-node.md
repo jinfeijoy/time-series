@@ -140,6 +140,7 @@
 ### VAR Model
 * Granger Causality Test
 * autocorrelation test
+* stationary check
 * stability test (Rec-CUSUM, OLS-CUSUM, Rec-MOSUM, OLS-MOSUM)
 * Linear regression check
   * linearity: plot residual and fitted 
