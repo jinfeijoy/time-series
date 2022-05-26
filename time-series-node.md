@@ -137,3 +137,11 @@
 * Evaluation Metrics:
   * ![image](https://user-images.githubusercontent.com/16402963/150458993-47d84809-e40c-42d7-95ae-735e3c7ef1b9.png)
  
+### VAR Model
+* Granger Causality Test
+* autocorrelation test
+* stability test (Rec-CUSUM, OLS-CUSUM, Rec-MOSUM, OLS-MOSUM)
+* Linear regression check
+  * linearity: plot residual and fitted 
+  * normality: QQ plot by comparing the residuals to ideal normal observations
+  * homoscedasticity check: plot scale location
