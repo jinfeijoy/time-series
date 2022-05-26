@@ -137,7 +137,7 @@
 * Evaluation Metrics:
   * ![image](https://user-images.githubusercontent.com/16402963/150458993-47d84809-e40c-42d7-95ae-735e3c7ef1b9.png)
  
-### VAR Model
+### [VAR Model](https://kevinkotze.github.io/ts-7-var/)
 * Granger Causality Test
 * autocorrelation test
 * stationary check
