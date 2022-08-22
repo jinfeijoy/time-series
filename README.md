@@ -22,7 +22,7 @@
 * Task3 ([DL](https://www.kaggle.com/c/competitive-data-science-predict-future-sales/code?competitionId=8587&sortBy=voteCount)): Feb8 - Feb9
     * [Forecasting with DeepAR: for busy people](https://kekayan.medium.com/forecasting-with-deepar-for-busy-people-ed67f9d9a00d) 
     * [Combining DeepAR and LightGBM to forecast sales for multiple products at once](https://pvilar.medium.com/combining-deepar-and-lightgbm-to-forecast-sales-for-multiple-products-at-once-5586148ceee9)
-* Task4 Prophet: Aug21 - Sep15
+* Task4 [Prophet](https://github.com/jinfeijoy/time-series/tree/main/prophet): Aug21 - Sep15
   * Prophet metholegy (Aug21 - Aug26)
   * Prophet implementation (Aug27 - Sep9) (2~3 tasks in different domain with different patterns)
   *   
