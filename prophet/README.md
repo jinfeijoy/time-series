@@ -24,3 +24,4 @@
 * [Implementing Facebook Prophet efficiently](https://towardsdatascience.com/implementing-facebook-prophet-efficiently-c241305405a3)
 * [Anomaly detection in time series with Prophet library](https://towardsdatascience.com/anomaly-detection-time-series-4c661f6f165f)
 * [Multi-step Time Series Forecasting with ARIMA, LightGBM, and Prophet](https://towardsdatascience.com/multi-step-time-series-forecasting-with-arima-lightgbm-and-prophet-cc9e3f95dfb0)
+* [Forecasting at Scale](https://peerj.com/preprints/3190v2/#)
