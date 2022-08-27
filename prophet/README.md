@@ -15,6 +15,7 @@
     * e(t): covers idiosyncratic changes not accommodated by the model
     * The function can be written as: y(t) = piecewise_trend(t) + seasonality(t) + holiday_effects(t) + i.i.d. noise
     * Trend Changepoints: Changepoints are the points in your data where there are sudden and abrupt changes in the trend. The changepoints parameter is used when you supply the changepoint dates instead of having Prophet determine them. Once you have provided your own changepoints, Prophet will not estimate any more changepoints. From my experience, I have found that letting Prophet discover them on its own and me changing the number of changepoints (with n_changepoints) gave the best results.
+* ![image](https://user-images.githubusercontent.com/16402963/187009055-8e3f3fd5-b652-42cf-a4e9-0e0846c7d154.png)
 
 
 ##
