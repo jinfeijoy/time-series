@@ -15,6 +15,7 @@
     * e(t): covers idiosyncratic changes not accommodated by the model
     * The function can be written as: y(t) = piecewise_trend(t) + seasonality(t) + holiday_effects(t) + i.i.d. noise
     * Trend Changepoints: Changepoints are the points in your data where there are sudden and abrupt changes in the trend. The changepoints parameter is used when you supply the changepoint dates instead of having Prophet determine them. Once you have provided your own changepoints, Prophet will not estimate any more changepoints. From my experience, I have found that letting Prophet discover them on its own and me changing the number of changepoints (with n_changepoints) gave the best results.
+* ![image](https://user-images.githubusercontent.com/16402963/187009055-8e3f3fd5-b652-42cf-a4e9-0e0846c7d154.png)
 
 
 ##
@@ -24,3 +25,4 @@
 * [Implementing Facebook Prophet efficiently](https://towardsdatascience.com/implementing-facebook-prophet-efficiently-c241305405a3)
 * [Anomaly detection in time series with Prophet library](https://towardsdatascience.com/anomaly-detection-time-series-4c661f6f165f)
 * [Multi-step Time Series Forecasting with ARIMA, LightGBM, and Prophet](https://towardsdatascience.com/multi-step-time-series-forecasting-with-arima-lightgbm-and-prophet-cc9e3f95dfb0)
+* [Forecasting at Scale](https://peerj.com/preprints/3190v2/#)
