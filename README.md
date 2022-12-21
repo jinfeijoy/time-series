@@ -24,7 +24,7 @@
     * [Combining DeepAR and LightGBM to forecast sales for multiple products at once](https://pvilar.medium.com/combining-deepar-and-lightgbm-to-forecast-sales-for-multiple-products-at-once-5586148ceee9)
 * Task4 [Prophet](https://github.com/jinfeijoy/time-series/tree/main/prophet): Oct1 - Oct15
   * [Prophet guided project](https://www.coursera.org/learn/prophet-timeseries-prediction/supplement/YfBpJ/project-based-course-overview) (Oct1-Oct2)
-  * Prophet metholegy (Oct3 - Oct5)
+  * [Prophet metholegy](https://facebook.github.io/prophet/docs/diagnostics.html) (Oct3 - Oct5)
   * Prophet implementation (Oct6 - Oct15) (2~3 tasks in different domain with different patterns)
 * Task5 XGBoost Regressor: Oct16 - Oct30
 
