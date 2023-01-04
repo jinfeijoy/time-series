@@ -12,4 +12,9 @@
     * dense: sequence to vector only output single dense, while senquence to sequence output multiple dense
        * ![image](https://user-images.githubusercontent.com/16402963/210625839-cceb8776-0211-493e-be0e-ed7f6b83c2cf.png)
        * ![image](https://user-images.githubusercontent.com/16402963/210625921-cdd6a9d3-1652-47c6-9b81-30de83c83513.png)
-    
+* Adjusting the learning rate dynamically
+  * tune learning rate to find out best learning rate
+    * ![image](https://user-images.githubusercontent.com/16402963/210627316-a46392b5-2c24-458a-b44f-493666bb6e82.png) 
+  * find out best epoc based on mae 
+     * ![image](https://user-images.githubusercontent.com/16402963/210627404-b854b90d-ce84-497d-8f7e-90d40788ab0f.png)
+* Huber loss function: less sensitive to outliers  
