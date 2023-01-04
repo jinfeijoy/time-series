@@ -2,6 +2,7 @@
 * [IBM Time Series Course](https://www.coursera.org/learn/time-series-survival-analysis/home/welcome): Jan13 - Jan19
 * [Sequences, Time Series and Prediction](https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction/home/welcome): Jan20 - Jan22
    * [Code Git](https://github.com/jinfeijoy/tensorflow-1-public) 
+   * [Notes](https://github.com/jinfeijoy/time-series/blob/main/sequence_ts_pd_notes.md)
 * [Notes](https://github.com/jinfeijoy/time-series/blob/main/time-series-node.md)
 * [MIT Time Series Course](https://ocw.mit.edu/courses/economics/14-384-time-series-analysis-fall-2013/lecture-notes/): Jan27 - Jan31
     * Multivariate Time Series
