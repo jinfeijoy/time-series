@@ -24,3 +24,5 @@
   * ![IMG_0220](https://user-images.githubusercontent.com/16402963/210908414-f3fb9e26-13b3-46fe-bf60-17035c466c2a.JPG) 
 * LSTM
   *  ![IMG_0221](https://user-images.githubusercontent.com/16402963/210908428-fed00513-7f19-450a-ac45-8e5f1822e399.JPG)
+## Week 4
+* Mini batch: for regular batch, 1 epoch will have 1 gradient descent, for mini batch, 1 epoch will have multiple gradient descent (n_gradient = N/batch_size)
