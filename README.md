@@ -55,3 +55,11 @@
 * https://towardsdatascience.com/stationarity-in-time-series-analysis-90c94f27322
 * https://towardsdatascience.com/the-time-series-transformer-2a521a0efad3
 * https://towardsdatascience.com/trend-seasonality-moving-average-auto-regressive-model-my-journey-to-time-series-data-with-edc4c0c8284b
+
+## Medium
+* [Time Series Forecasting: A Comparative Analysis of SARIMAX, RNN, LSTM, Prophet, and Transformer Models](https://medium.datadriveninvestor.com/time-series-forecasting-a-comparative-analysis-of-sarimax-rnn-lstm-prophet-and-transformer-aed4930ae187)
+
+
+
+
+
